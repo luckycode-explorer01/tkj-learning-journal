@@ -27,12 +27,111 @@ Dari Padlet 22 Juli 2026 hal yang ingin kuingat: vibes awal kami, tujuan kami.
 ## Cerita & Catatan Belajar
 Waktu pertama kali menyentuh materi Bab 1 ini, rasanya terkejut karena ya ada istilah asing dan familier seperti IP Address
 
-## Ringkasan Singkat Versi Aku
-- **PAN:** Jarak dekat banget, hitungan meter, contohnya Bluetooth/USB.
-- **LAN:** Lingkup lokal seperti rumah, ruang kelas, atau satu gedung.
-- **MAN:** Skala satu kota, menghubungkan beberapa titik/kantor/kampus.
-- **WAN:** Skala luas antarwilayah/negara, contoh nyatanya internet.
-- **OSI (7 Layer):** Kerangka berlapis untuk membayangkan bagaimana data berjalan dari fisik sampai aplikasi.
+# Semi-Diary TKJ — Catatan Bulan Agustus 2026
 
-## Catatan untuk Diri Sendiri
-Hal yang ingin kuingat dari fase awal ini: sebenarnya aku sempat dimarahin karena ga afal 7 layar tersebut but it's part of my study so it's completely normal~
+- **Periode: Agustus 2026
+- **Titik Berangkat:** Padlet pembuka tanggal 22 Juli 2026
+- **Sumber Catatan:** Modul/web kelas (`s.id/web-tkj`) dan catatan Jaringan Dasar
+
+---
+
+## 1. Pembuka: Dari Padlet Menuju Hari Rabu Pertama di Agustus
+Sebelum masuk ke bulan Agustus, langkah awal di kelas 10 sudah dimulai lewat pengisian Padlet pada 22 Juli 2026. Di sana aku menuliskan hal-hal sederhana seperti asal sekolah, hobi, sejauh mana aku tahu tentang TKJ, dan rencana setelah lulus SMK—termasuk menuliskan arah ke **kepolisian siber**.
+
+Begitu masuk bulan Agustus 2026, suasananya terasa lebih nyata karena pelajaran Jaringan Dasar berjalan rutin setiap hari Rabu. Dari minggu ke minggu, istilah-istilah yang tadinya cuma terdengar samar mulai punya bentuk dan fungsi yang jelas di kepala.
+
+---
+
+## 2. Rabu, 5 Agustus 2026 — K3LH, Akses Materi, Jenis Jaringan & Tren Modern
+Pertemuan pertama di bulan Agustus menjadi pijakan awal sebelum menyelam lebih dalam. Catatan hari itu diawali dengan **K3LH** serta akses materi kelas (`s.id/web-tkj`), lalu berlanjut ke struktur jaringan dan cakupan wilayahnya:
+
+### Pola & Struktur Jaringan
+- Mengenal istilah **jaringan terstruktur**, **bercabang**, **penghubung**, dan **gabungan** sebagai gambaran umum bagaimana titik-titik jaringan tersusun.
+
+### Skala Jaringan (PAN, LAN, MAN, WAN)
+- **PAN (*Personal Area Network*):** Jaringan jarak sangat dekat (radius sekitar 10 meter) yang dirancang untuk komunikasi antarperangkat pribadi berkecepatan rendah, dengan biaya rendah—contohnya **Bluetooth** dan **USB**.
+- **LAN (*Local Area Network*):** Jaringan skala lokal (seperti di satu gedung atau kampus, dengan kecepatan sekitar 100 Mbps hingga 10 Gbps). Standar utamanya meliputi **Ethernet** (koneksi kabel berkecepatan tinggi, biaya relatif lebih tinggi) dan **Wi-Fi / Wireless LAN** (biaya menengah).
+- **MAN (*Metropolitan Area Network*):** Mencakup skala satu kota (sekitar 1–100 km) yang berfungsi menghubungkan jaringan-jaringan LAN.
+- **WAN (*Wide Area Network*):** Mencakup wilayah luas—dari skala nasional, benua, hingga global—dengan latensi lebih tinggi dibanding LAN. Penghubungnya antara lain **router**, **jalur telepon**, **kabel bawah laut**, dan **satelit** (kecepatan bervariasi, biaya sangat tinggi).
+
+### Tren Lanjutan & Keamanan Dasar
+- **GAN (*Global Area Network*):** Gambaran jaringan tanpa batas geografis yang menyatukan berbagai jenis jaringan ke dalam satu ekosistem.
+- **Cloud Computing & IoT (*Internet of Things*):** Mulai melihat penerapannya di kehidupan sehari-hari—seperti penyimpanan/layanan daring (*Google Drive*, *e-mail*) dan perangkat terhubung (*smart home*, *smart watering*).
+- **Keamanan Dasar:** Catatan penting bahwa sejak awal jaringan perlu keamanan dasar untuk melindungi **privasi** dan **integritas data**.
+
+> **Cerita & Suasana (5 Agustus 2026):** ... *(menurutku gampang karena ngafalinnya tinggal pan itu personal atau pribadi lan local man metro atau kota dan wan itu wide atau benua)*
+
+---
+
+## 3. Rabu, 12 Agustus 2026 — Media Jaringan: Jalur Fisik (Kabel) vs Nirkabel
+Setelah tahu skala jaringannya, pertemuan tanggal 12 Agustus mengupas **media jaringan**—saluran fisik maupun nonfisik untuk mengirim data antarperangkat. Pemilihan media ini sangat menentukan **kecepatan**, **jangkauan**, **biaya**, dan **kendala** jaringan secara keseluruhan.
+
+### Media Kabel (*Wired*)
+- ***Twisted Pair Cable*:**
+  - **UTP (*Unshielded Twisted Pair*):** Paling umum dipakai di LAN, murah, mudah dipasang, dengan kecepatan hingga 10 Gbps dan jangkauan efektif sekitar **100 meter per segmen** untuk LAN gedung.
+  - **STP (*Shielded Twisted Pair*):** Dilengkapi pelindung logam sehingga lebih tahan terhadap gangguan/interferensi elektromagnetik.
+- **Kabel Koaksial:** Memiliki konduktor tembaga inti, lapisan isolator, dan pelindung logam anyaman agar tahan gangguan sinyal. Di catatan tertera gambaran *Thick Coax* (hingga sekitar 500 m) dan *Thin Coax* (sekitar 185 m, serta pemakaian kabel *broadband* modern).
+- **Fiber Optik:** Mengirimkan data dalam bentuk **cahaya** melalui serat kaca atau plastik; kecepatannya bisa mencapai ratusan Mbps/tinggi, tidak terpengaruh interferensi elektromagnetik, dan jauh lebih aman dari penyadapan—meski punya tantangan biaya, kerentanan fisik/kerapuhan, serta butuh penanganan/teknisi yang tepat.
+
+### Media Nirkabel (*Wireless*)
+- Memanfaatkan gelombang elektromagnetik tanpa kabel fisik:
+  - **Wi-Fi** & **Bluetooth** (standar WPAN **IEEE 802.15**).
+  - **Infrared (IrDA):** Jarak sangat pendek, memerlukan garis pandang langsung (*line of sight*) antarperangkat, dan kini jarang dipakai.
+  - **Microwave:** Komunikasi *point-to-point* jarak jauh menggunakan gelombang frekuensi tinggi sebagai *backbone* telekomunikasi antar-lokasi/menara BTS.
+  - **Satelit:** Menjangkau area luas hingga permukaan bumi (seperti orbit **LEO** dan **GEO**).
+
+> **Cerita & Suasana (12 Agustus 2026):** ... *takjub dengan fiber optic like who created that masterpiece using glass that very fragile but mind blowing*
+---
+
+## 4. Rabu, 19 Agustus 2026 — Perangkat Keras, Pengalamatan Awal & Menghidupkan LAN
+Masuk ke pertemuan tanggal 19 Agustus, pembahasan terasa makin dekat dengan praktik nyata di lapangan: mengenal perangkat jaringan, membedakan alamat perangkat, serta alur menghidupkan jaringan lokal (LAN).
+
+### Perangkat & Identitas dalam Jaringan
+- **MAC Address (NIC):** Alamat fisik perangkat yang bersifat bawaan/tidak diubah begitu saja.
+- **IP Address:** Alamat logis perangkat dalam jaringan (bisa diatur secara *static* maupun *dynamic* melalui **DHCP**).
+- **Perangkat Penghubung:** Mengenal fungsi **Switch** (menghubungkan perangkat dalam satu LAN secara efisien), **Router** (menghubungkan jaringan/subnet berbeda dan mengarahkan rute paket data), **Access Point (AP)**, **Modem** (mengubah sinyal analog dari penyedia layanan menjadi sinyal digital untuk perangkat jaringan, seperti ONT/DSL/USB), **Repeater**, dan **Bridge**.
+
+### Alur Menghidupkan LAN
+1. **Instalasi Fisik (*Hardware*):** Menyiapkan kabel UTP, memasang konektor **RJ45**, dan menguji konektivitas/urutan jalur menggunakan **LAN tester**.
+2. **Konfigurasi ICS (*Internet Connection Sharing*):** Mengatur pembagian koneksi jaringan.
+3. **Distribusi Alamat IP:** Memastikan perangkat dalam jaringan mendapatkan pengalamatan IP yang sesuai agar bisa saling terhubung.
+
+> **Cerita & Suasana (19 Agustus 2026):** ... *(Mudah untuk menghafal mac dan upaya, Mac ibarat NIK dan ip itu alamat)*
+
+---
+
+## 5. Rabu, 26 Agustus 2026 — Susunan Warna Kabel UTP (*Straight* & *Cross*)
+Pertemuan terakhir di bulan Agustus pada tanggal 26 Agustus mengasah ketelitian di kabel **UTP**—memahami perbedaan fungsi kabel *straight* dan *cross* beserta urutan 8 warnanya.
+
+### Aturan Penggunaan
+- **Kabel *Straight*:** Dipakai untuk menghubungkan **dua perangkat yang berbeda** (misalnya komputer ke *switch*).
+- **Kabel *Cross*:** Dipakai untuk menghubungkan **dua perangkat yang sama** (misalnya komputer ke komputer).
+
+### Urutan 8 Warna Kabel UTP
+- **Ujung A / Kabel *Straight*:**
+  1. Putih Oranye
+  2. Oranye
+  3. Putih Hijau
+  4. Biru
+  5. Putih Biru
+  6. Hijau
+  7. Putih Cokelat
+  8. Cokelat
+- **Ujung B Kabel *Cross* (menukar jalur 1–3 dan 2–6):**
+  1. Putih Hijau
+  2. Hijau
+  3. Putih Oranye
+  4. Biru
+  5. Putih Biru
+  6. Oranye
+  7. Putih Cokelat
+  8. Cokelat
+
+> **Cerita & Suasana (26 Agustus 2026):** ... *(tulis cerita kecilmu saat menghafal urutan warna kabel UTP—apakah sempat keliru di warna putih/hijau/biru atau mulai hafal polanya)*
+
+---
+
+## 6. Refleksi Akhir Bulan Agustus 2026
+- **Pelajaran Terbesar Bulan Agustus:** ...
+- **Bagian yang Perlu Diulang / Diperdalam:** ...
+- **Benang Merah ke Masa Depan (Kepolisian Siber):** Mengetahui cara jaringan dibagi per wilayah, bagaimana data mengalir lewat kabel atau gelombang, serta bagaimana perangkat dikenali dan dihubungkan menjadi fondasi awal sebelum melangkah ke materi berikutnya di bulan-bulan selanjutnya.
